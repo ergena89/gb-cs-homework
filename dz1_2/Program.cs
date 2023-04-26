@@ -7,16 +7,19 @@ Console.Write("Введите второе число b =");
 int b = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите третье число c =");
 int c = Convert.ToInt32(Console.ReadLine());
-
-if(a > b & a > c)
+int max = 0;
+if(a > b)
 {
-    Console.Write($"max = {a}");
+    if (a > c )
+        max = a;
+    else
+        max = c;
 }
-if(b > a & b > c)
+else
 {
-    Console.WriteLine($"max = {b}");
-   }
-if(c > a & c > b)
-{
-    Console.WriteLine($"max = {c}");
+    if (b > c )
+        max = b;
+    else
+        max = c;
 }
+System.Console.WriteLine($"max = {max}");
