@@ -11,7 +11,6 @@ int c = Convert.ToInt32(Console.ReadLine());
 if(a > b & a > c)
 {
     Console.Write($"max = {a}");
-    Console.WriteLine(a);
 }
 if(b > a & b > c)
 {
