@@ -8,11 +8,9 @@ Console.Write("Введите второе число b =");
 int b = Convert.ToInt32(Console.ReadLine());
 if(a > b)
 {
-Console.Write("max =");
-Console.WriteLine();
+Console.Write($"max = {a}");
 }
 else
 {
-Console.Write("max =");
-Console.WriteLine(b);
+Console.Write($"max = {b}");
 }
