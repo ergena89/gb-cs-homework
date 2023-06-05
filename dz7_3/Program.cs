@@ -61,6 +61,6 @@ for (int j = 0; j < Arr.GetLength(1); j++)
     // проверка подсчет среднегоарифметического колонок
     // System.Console.WriteLine($"Столбец {j}:");
     // PrintArray(column);
-    middle = (summa/(double)k);
-    Console.Write($"{middle:0.00} ");
+    middle = Math.Round((summa/(double)k), 1);
+    Console.Write($"{middle}  ");
 }
