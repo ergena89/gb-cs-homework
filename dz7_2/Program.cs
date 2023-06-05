@@ -44,7 +44,7 @@ int j = int.Parse(Console.ReadLine());
 Console.WriteLine($"Вы ввели a[{i},{j}]");
 int[,] Arr = CreateRandom2Array(6, 7, -100, 100);
 Print2Array(Arr);
-if (i <= Arr.GetLength(0) && j <= Arr.GetLength(1))
+if (i <= Arr.GetLength(0) && j <= Arr.GetLength(1) && i >= 0 && j >= 0)
 Console.WriteLine($"Arr[{i},{j}] = {Arr[i,j]} ");
 else
 Console.WriteLine($"Arr[{i},{j}] - такого элемента нет");
