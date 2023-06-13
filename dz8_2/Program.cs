@@ -60,22 +60,7 @@ int[] SummaInRows(int[,] arr)
 return sumarr;
 }
 
-// вычисляем наименьшую сумму и находим строку соответствующую наименьшей сумме и выводи ее номер и значение на экран
-// void LittleElem(int[] sumarr)
-// {
-//     int litIndex = sumarr[0];
-//         for (int i = 0; i < sumarr.Length; i++)
-//     {
-//         if (litIndex < sumarr[i])
-//         {
-//         Console.Write($"Наименьшая сумма элементов в {i} строке = {litIndex}");
-//         } 
-//         else
-//         {
-//         litIndex = sumarr[i];
-//         }
-//     }
-// }
+// вычисляем наименьшую сумму и выводим ее номер и значение в консоли
 
 int GetMinIndex(int[] sumarr)
 {
